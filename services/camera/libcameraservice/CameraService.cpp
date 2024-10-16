@@ -89,7 +89,7 @@
 #include "utils/Utils.h"
 
 #ifdef CAMERA_NEEDS_CLIENT_INFO_LIB
-#include <vendor/oneplus/hardware/camera/1.0/IOnePlusCameraProvider.h>
+#include <vendor/oneplus/camera/CameraHIDL/1.0/IOnePlusCameraProvider.h>
 #endif
 
 #ifdef CAMERA_NEEDS_CLIENT_INFO_LIB_OPLUS
@@ -132,7 +132,7 @@ using hardware::camera2::ICameraInjectionSession;
 using hardware::camera2::utils::CameraIdAndSessionConfiguration;
 using hardware::camera2::utils::ConcurrentCameraIdCombination;
 #ifdef CAMERA_NEEDS_CLIENT_INFO_LIB
-using ::vendor::oneplus::hardware::camera::V1_0::IOnePlusCameraProvider;
+using ::vendor::oneplus::camera::CameraHIDL::V1_0::IOnePlusCameraProvider;
 #endif
 #ifdef CAMERA_NEEDS_CLIENT_INFO_LIB_OPLUS
 using ::vendor::oplus::hardware::cameraMDM::V2_0::IOPlusCameraMDM;
